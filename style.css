@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-    background-image: url(./img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,10 +25,52 @@
     margin-top: 110px;
 }
 
-.third-section {
+.jumbotron>div>div>img {
+    width: 300px;
+}
+
+.point {
+    color: #356a69;
+}
+
+.jumbotron>.row>.col-12>h2 {
+    font-size: 40px;
+}
+
+.second-section {
     margin-top: 110px;
 }
 
-.third-section>div>h2 {
+.fs-40 {
     font-size: 40px;
+}
+
+.third-section {
+    margin-top: 80px;
+}
+
+.third-section-images {
+    margin-bottom: 15px;
+}
+
+.fa-trademark {
+    font-size: 10px;
+}
+
+.fourth-section {
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fourth-section>.container>.row>.col-6>img {
+    margin-top: 50px;
+    margin-bottom: 28px;
+}
+
+@media screen and (min-width: 992px) {
+    .col-12.col-md-5 {
+        margin-top: 150px;
+    }
 }
