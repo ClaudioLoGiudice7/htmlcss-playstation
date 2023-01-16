@@ -4,4 +4,16 @@
     color: #fff;
 }
 
-.bottom-header {}
+.logo-sony {
+    width: 5rem;
+}
+
+.nav-link>.fa-chevron-down {
+    font-size: small;
+}
+
+.jumbotron {
+    background-image: url("./img/returnal-listing-thumb-01-ps5.jpg");
+    background-size: cover;
+    height: 70vh;
+}
