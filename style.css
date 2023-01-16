@@ -1,3 +1,7 @@
+.white {
+    color: #fff;
+}
+
 .upper-header {
     height: 40px;
     background-color: #000;
@@ -13,7 +17,18 @@
 }
 
 .jumbotron {
-    background-image: url("./img/returnal-listing-thumb-01-ps5.jpg");
+    background-image: url(./img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 70vh;
+    margin-top: 110px;
+}
+
+.third-section {
+    margin-top: 110px;
+}
+
+.third-section>div>h2 {
+    font-size: 40px;
 }
