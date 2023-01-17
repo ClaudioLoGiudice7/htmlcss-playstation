@@ -37,7 +37,7 @@
     font-size: 40px;
 }
 
-.second-section {
+.play-station-5-presentation-section {
     margin-top: 110px;
 }
 
@@ -45,11 +45,11 @@
     font-size: 40px;
 }
 
-.third-section {
+.play-devices-section {
     margin-top: 80px;
 }
 
-.third-section-images {
+.play-devices-section-images {
     margin-bottom: 15px;
 }
 
@@ -57,32 +57,24 @@
     font-size: 10px;
 }
 
-.fourth-section {
+.it-takes-two-section {
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.fourth-section>.container>.row>.col-6>img {
+.it-takes-two-section>.container>.row>.col-6>img {
     margin-top: 50px;
     margin-bottom: 28px;
 }
 
-.fifth-section {
+.new-releases-section {
     background-color: #1f1f1f;
 }
 
-.fifth-section>.container>.row>.col-6>h3 {
-    font-size: 35px;
-}
-
-.fifth-section>.container>.row>.col-6>p {
-    margin-bottom: 50px;
-}
-
-.mb-35 {
-    margin-bottom: 35px;
+.new-releases-section>.container>.row>.col-6>p>a {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
