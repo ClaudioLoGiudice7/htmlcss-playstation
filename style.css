@@ -69,6 +69,22 @@
     margin-bottom: 28px;
 }
 
+.fifth-section {
+    background-color: #1f1f1f;
+}
+
+.fifth-section>.container>.row>.col-6>h3 {
+    font-size: 35px;
+}
+
+.fifth-section>.container>.row>.col-6>p {
+    margin-bottom: 50px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
 @media screen and (min-width: 992px) {
     .col-12.col-md-5 {
         margin-top: 150px;
