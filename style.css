@@ -29,52 +29,78 @@
     width: 300px;
 }
 
-.point {
-    color: #356a69;
+.jumbotron>.row {
+    padding-top: 160px;
 }
 
 .jumbotron>.row>.col-12>h2 {
     font-size: 40px;
 }
 
-.play-station-5-presentation-section {
+.play-station-5-presentation {
     margin-top: 110px;
+}
+
+.play-station-5-presentation>div>h4 {
+    color: #117bd1;
 }
 
 .fs-40 {
     font-size: 40px;
 }
 
-.play-devices-section {
+.play-devices {
     margin-top: 80px;
 }
 
-.play-devices-section-images {
+.btn-primary {
+    background-color: #2d64e6;
+}
+
+.play-devices-images {
     margin-bottom: 15px;
 }
 
 .fa-trademark {
-    font-size: 10px;
+    font-size: 8px;
 }
 
-.it-takes-two-section {
+.it-takes-two {
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.it-takes-two-section>.container>.row>.col-6>img {
+.it-takes-two>.container>.row>.col-6>img {
     margin-top: 50px;
     margin-bottom: 28px;
 }
 
-.new-releases-section {
+.new-releases {
     background-color: #1f1f1f;
 }
 
-.new-releases-section>.container>.row>.col-6>p>a {
+.new-releases>.container>.row>.col-6>p>a {
     text-decoration: none;
+}
+
+.playstation-plus {
+    background-color: #bebcbb;
+}
+
+.playstation-plus>.container>.row>.col-12>button {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+.playstation-now {
+    background-color: #161c3b;
+}
+
+.playstation-now>.container>.row>.col-12>button {
+    background-color: #f5f5f5;
+    color: #000;
 }
 
 @media screen and (min-width: 992px) {
