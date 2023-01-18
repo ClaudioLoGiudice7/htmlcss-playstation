@@ -42,33 +42,35 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown mb-2">
+                        <li class="nav-item dropdown mb-2 position-static">
                             <a class="nav-link dropdown-toggle text-black fw-bold mt-2" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
-                                            alt="logo play menu"> PlayStation 5
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
-                                            alt="logo play menu"> PlayStation 4
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
-                                            alt="logo play menu"> PlayStation 3
-                                    </a>
-                                </li>
-                                <hr>
-                                <ul>
-                                    <li>Link Giochi</li>
-                                    <li>Link Giochi</li>
-                                    <li>Link Giochi</li>
-                                </ul>
+                            <ul class="dropdown-menu w-100 m-0 border-0">
+                                <div class="row d-flex">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
+                                                alt="logo play menu"> PlayStation 5
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
+                                                alt="logo play menu"> PlayStation 4
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png"
+                                                alt="logo play menu"> PlayStation 3
+                                        </a>
+                                    </li>
+                                    <hr>
+                                    <ul>
+                                        <li>Link Giochi</li>
+                                        <li>Link Giochi</li>
+                                        <li>Link Giochi</li>
+                                    </ul>
+                                </div>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -384,26 +386,40 @@
 
                 <div class="row gx-5">
                     <div class="col-4 col-md">
-                        <img src="./img/playstation-5-thumb.png" class="w-100 play-devices-images" alt="play5">
-                        <p class="d-none d-md-block">Console PS5</p>
+                        <a href="#"><img src="./img/playstation-5-thumb.png" class="w-100 play-devices-images"
+                                alt="play5">
+                            <p class="d-none d-md-block text-black">
+                                Console PS5
+                            </p>
+                        </a>
                     </div>
                     <div class="col-4 col-md">
-                        <img src="./img/joypad-thumb.png" class="w-100 play-devices-images" alt="joypad">
-                        <p class="d-none d-md-block">Controller wireless DualSense&#8482;
-                        </p>
+                        <a href="#"><img src="./img/joypad-thumb.png" class="w-100 play-devices-images" alt="joypad">
+                            <p class="d-none d-md-block text-black">
+                                Controller wireless DualSense&#8482;
+                            </p>
+                        </a>
                     </div>
                     <div class="col-4 col-md">
-                        <img src="./img/headset-thumb.png" class="w-100 play-devices-images" alt="headset">
-                        <p class="d-none d-md-block">Cuffie wireless con microfono PULSE 3&#8482;
-                        </p>
+                        <a href="#"><img src="./img/headset-thumb.png" class="w-100 play-devices-images" alt="headset">
+                            <p class="d-none d-md-block text-black">
+                                Cuffie wireless con microfono PULSE 3&#8482;
+                            </p>
+                        </a>
                     </div>
                     <div class="col-4 col-md">
-                        <img src="./img/remote-thumb.png" class="w-100 play-devices-images" alt="remote">
-                        <p class="d-none d-md-block">Telecomando Media</p>
+                        <a href="#"><img src="./img/remote-thumb.png" class="w-100 play-devices-images" alt="remote">
+                            <p class="d-none d-md-block text-black">
+                                Telecomando Media
+                            </p>
+                        </a>
                     </div>
                     <div class="col-4 col-md">
-                        <img src="./img/camera-thumb.jpg" class="w-100 play-devices-images" alt="camera">
-                        <p class="d-none d-md-block">Telecamera HD</p>
+                        <a href="#"><img src="./img/camera-thumb.jpg" class="w-100 play-devices-images" alt="camera">
+                            <p class="d-none d-md-block text-black">
+                                Telecamera HD
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -639,9 +655,9 @@
                         <button class="btn rounded-pill fw-bold mb-4">Esplora PlayStation Now</button>
                     </div>
                     <div class="d-none d-md-block col-md-5">
-                        <div>
-                            <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" class="w-100"
-                                alt="ps-plus-april/img">
+                        <div class="w-100 h-100 position-relative">
+                            <img src="./img/ps-plus-april-monthly-games-featured-image-block.png"
+                                class="h-100 position-absolute" alt="ps-plus-april/img">
                         </div>
                     </div>
                 </div>

@@ -40,6 +40,13 @@
     background-color: #cd3d0f;
 }
 
+.buy-now-button:hover {
+    outline-color: black;
+    outline-width: 2px;
+    outline-offset: -4px;
+    outline-style: solid;
+}
+
 .play-station-5-presentation {
     margin-top: 110px;
 }
@@ -60,8 +67,19 @@
     background-color: #2d64e6;
 }
 
+.btn-primary:hover {
+    outline-color: black;
+    outline-width: 2px;
+    outline-offset: 2px;
+    outline-style: solid;
+}
+
 .play-devices-images {
     margin-bottom: 15px;
+}
+
+.play-devices a {
+    text-decoration: none;
 }
 
 .it-takes-two {
