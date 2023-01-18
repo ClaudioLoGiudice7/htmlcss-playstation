@@ -1,7 +1,3 @@
-.white {
-    color: #fff;
-}
-
 .upper-header {
     height: 40px;
     background-color: #000;
@@ -16,12 +12,15 @@
     font-size: small;
 }
 
+.btn-dark {
+    background-color: #363636;
+}
+
 .jumbotron {
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
     margin-top: 110px;
 }
 
@@ -35,6 +34,10 @@
 
 .jumbotron>.row>.col-12>h2 {
     font-size: 40px;
+}
+
+.buy-now-button {
+    background-color: #cd3d0f;
 }
 
 .play-station-5-presentation {
@@ -59,10 +62,6 @@
 
 .play-devices-images {
     margin-bottom: 15px;
-}
-
-.fa-trademark {
-    font-size: 8px;
 }
 
 .it-takes-two {
@@ -103,8 +102,34 @@
     color: #000;
 }
 
+footer {
+    background-color: #00439c;
+}
+
+.ps-footer-logo {
+    width: 100px;
+}
+
+.globe {
+    width: 20px;
+}
+
+
+footer>.container>.row>.col-12>.row>.col-12>ul>a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sie-logo {
+    width: 145px;
+}
+
 @media screen and (min-width: 992px) {
     .col-12.col-md-5 {
         margin-top: 150px;
     }
-}
+
+    footer>.container>.row>.col-12>.row.lh-lg {
+        padding-top: 45px;
+    }
